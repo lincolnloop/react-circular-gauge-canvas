@@ -1,0 +1,39 @@
+{
+  "name": "react-circular-gauge-canvas",
+  "version": "1.0.0",
+  "description": "A React component which renders a circular progress meter using the <canvas> element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincolnloop/react-circular-gauge-canvas.git"
+  },
+  "keywords": [
+    "react",
+    "canvas",
+    "progress"
+  ],
+  "author": "Lincoln Loop, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lincolnloop/react-circular-gauge-canvas/issues"
+  },
+  "homepage": "https://github.com/lincolnloop/react-circular-gauge-canvas#readme",
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
+    ]
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "babelify": "6.4.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
